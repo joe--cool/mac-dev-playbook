@@ -58,13 +58,14 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   # - chromedriver
   # - docker
-  # - dropbox
+  - dropbox
   # - firefox
   # - google-chrome
   # - handbrake
   # - licecap
   # - sequel-pro
   # - slack
+  - datagrip
   - sublime-text
   - microsoft-edge
   # - transmit

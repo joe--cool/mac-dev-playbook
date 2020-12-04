@@ -64,8 +64,9 @@ homebrew_cask_apps:
   # - handbrake
   # - licecap
   # - sequel-pro
-  - slack
+  # - slack
   - sublime-text
+  - microsoft-edge
   # - transmit
   - vagrant
 

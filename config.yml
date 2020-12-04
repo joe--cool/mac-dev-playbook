@@ -29,10 +29,10 @@ homebrew_installed_packages:
   # - doxygen
   # - gettext
   # - gifsicle
-  # - git
+  - git
   # - github/gh/gh
   # - go
-  # - gpg
+  - gpg
   # - httpie
   # - iperf
   # - libevent
@@ -42,7 +42,7 @@ homebrew_installed_packages:
   # - node
   # - nvm
   # - php
-  # - ssh-copy-id
+  - ssh-copy-id
   # - cowsay
   # - readline
   # - openssl

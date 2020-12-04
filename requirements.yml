@@ -1,4 +1,11 @@
 ---
-- name: geerlingguy.dotfiles
-- name: geerlingguy.homebrew
-- name: geerlingguy.mas
+collections:
+  - name: https://github.com/joe--cool/ansible-role-dotfiles
+    type: git
+    version: master
+  - name: https://github.com/joe--cool/ansible-role-homebrew
+    type: git
+    version: master
+  - name: https://github.com/joe--cool/ansible-role-mas
+    type: git
+    version: master

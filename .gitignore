@@ -2,3 +2,6 @@
 .DS_Store
 *.retry
 roles*
+
+# Local ansible collections install
+collections

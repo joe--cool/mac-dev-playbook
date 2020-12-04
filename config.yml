@@ -14,7 +14,7 @@ sudoers_custom_config: ''
 
 dotfiles_repo: https://github.com/joe--cool/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/git_repos/configure/dotfiles
+dotfiles_repo_local_destination: ~/git_repos/configure-mac/dotfiles
 dotfiles_files:
   # - .zshrc
   # - .gitignore

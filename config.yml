@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - sqlite
   - ssh-copy-id
   - telnet
+  - tflint
   - tree
   - wget
   # - ansible # Installed via Pip.
@@ -66,6 +67,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - datagrip
   - dropbox
+  - insomnia
   - microsoft-edge
   - sublime-text
   - vagrant

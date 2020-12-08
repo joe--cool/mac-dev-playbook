@@ -1,0 +1,10 @@
+---
+- name: Load JDBC files
+  copy:
+    src: adillow_bin
+    dest: adillow_bin
+
+  lineinfile:
+    path: ~/.zshrc
+    regexp: '^export PATH=\~\/adillow_bin'
+    line: 'export PATH=~/adillow_bin:${PATH}'

@@ -29,6 +29,9 @@
     - include_tasks: tasks/jdbc.yml
       when: configure_jdbc
 
+    - include_tasks: tasks/bin.yml
+      when: configure_bin
+
     - include_tasks: tasks/terminal.yml
       when: configure_terminal
       tags: ['terminal']

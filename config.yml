@@ -26,6 +26,7 @@ dotfiles_files:
 homebrew_installed_packages:
   - dos2unix
   - git
+  - git-lfs
   - gpg
   - htop
   - jenv

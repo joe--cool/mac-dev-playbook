@@ -26,6 +26,9 @@
     - include_tasks: tasks/sudoers.yml
       when: configure_sudoers
 
+    - include_tasks: tasks/jdbc.yml
+      when: configure_jdbc
+
     - include_tasks: tasks/terminal.yml
       when: configure_terminal
       tags: ['terminal']

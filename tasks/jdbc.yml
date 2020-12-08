@@ -1,0 +1,5 @@
+---
+- name: Load JDBC files
+  copy:
+    src: jdbc
+    dest: jdbc

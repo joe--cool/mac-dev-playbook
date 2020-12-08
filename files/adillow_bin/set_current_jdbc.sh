@@ -1,6 +1,9 @@
 
-JDBC_DIRECTORY=~/jdbc/$1
+JDBC_SYSTEM=$1
+JDBC_DIRECTORY=~/jdbc/${JDBC_SYSTEM}
 CURRENT_JDBC=$2
 
-echo "Setting ${JDBC_DIRECTORY}/${CURRENT_JDBC} to be the current jdbc driver ${JDBC_DIRECTORY}/${JDBC_DIRECTORY}_current.jar."
-ln -sfn ${JDBC_DIRECTORY}/${CURRENT_JDBC} ${JDBC_DIRECTORY}/${JDBC_DIRECTORY}_current.jar
+LINK_FILE=${JDBC_DIRECTORY}/${CURRENT_JDBC}
+ORIG_FILE=${JDBC_DIRECTORY}/${JDBC_SYSTEM}_current.jar
+echo "Setting ${ORIG_FILE} to be the current jdbc driver ${LINK_FILE}."
+ln -sfn ${LINK_FILE} ${ORIG_FILE}

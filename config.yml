@@ -5,6 +5,7 @@ configure_dotfiles: true
 configure_jdbc: true
 configure_terminal: true
 configure_osx: true
+configure_bin: true
 
 configure_sudoers: false
 sudoers_custom_config: ''

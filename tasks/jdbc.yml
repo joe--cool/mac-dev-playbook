@@ -2,4 +2,7 @@
 - name: Load JDBC files
   copy:
     src: jdbc
-    dest: jdbc
+    dest: "~"
+
+- name: Set current qubole jdbc driver
+  shell: ~/adillow_bin/set_current_jdbc.sh qubole qds-jdbc-3.0.2.jar

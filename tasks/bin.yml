@@ -1,10 +1,12 @@
 ---
-- name: Load JDBC files
+- name: Create directory of scripts
   copy:
     src: adillow_bin
-    dest: adillow_bin
+    dest: "~"
+    mode: preserve
 
+- name: Add bin directory to PATH
   lineinfile:
-    path: ~/.zshrc
+    path: "~/.zshrc"
     regexp: '^export PATH=\~\/adillow_bin'
-    line: 'export PATH=~/adillow_bin:${PATH}'
+    line: 'export PATH=~/adillow_bin:$PATH'

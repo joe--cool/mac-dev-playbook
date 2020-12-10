@@ -6,3 +6,6 @@
 
 - name: Set current qubole jdbc driver
   shell: ~/adillow_bin/set_current_jdbc qubole qds-jdbc-3.0.2.jar
+
+- name: Set current qubole jdbc driver
+  shell: ~/adillow_bin/set_current_jdbc teradata terajdbc4_17.00.00.03.jar

@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - openjdk
   - openjdk@11
   - openjdk@8
+  - pipenv
   - sqlite
   - ssh-copy-id
   - telnet

@@ -16,3 +16,7 @@
     path: "~/.zshrc"
     regexp: '^eval .*jenv init'
     line: 'eval "$(jenv init -)"'
+
+- name: Setup openjdk
+  shell: "jenv add {{item}}"
+  with_fileglob: '/usr/local/opt/openjdk*'

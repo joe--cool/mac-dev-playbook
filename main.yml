@@ -27,6 +27,9 @@
     - include_tasks: tasks/jdbc.yml
       when: configure_jdbc
 
+    - include_tasks: tasks/jdbc.yml
+      when: configure_jenv
+
     - include_tasks: tasks/ansible-setup.yml
 
     - include_tasks: tasks/sudoers.yml

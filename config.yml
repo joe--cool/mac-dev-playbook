@@ -3,6 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_dotfiles: true
 configure_jdbc: true
+configure_jenv: true
 configure_terminal: true
 configure_osx: true
 configure_bin: true

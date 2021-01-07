@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - gpg
   - htop
   - jenv
+  - jfrog-cli
   - openjdk
   - openjdk@11
   - openjdk@8
@@ -38,6 +39,7 @@ homebrew_installed_packages:
   - telnet
   - tflint
   - tree
+  - watch
   - wget
   # - ansible # Installed via Pip.
   # - autoconf

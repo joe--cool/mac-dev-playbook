@@ -11,4 +11,4 @@
   shell: ~/adillow_bin/set_current_jdbc teradata terajdbc4_17.00.00.03.jar
 
 - name: Set current teradata jdbc driver
-  shell: ~/adillow_bin/set_current_jdbc dremio dremio-jdbc-driver-14.4.0-202103222101470739-52b7b451.jar
+  shell: ~/adillow_bin/set_current_jdbc dremio dremio-jdbc-driver-15.2.0-202104142212170463-ae16cd17.jar

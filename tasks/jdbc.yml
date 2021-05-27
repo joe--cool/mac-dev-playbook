@@ -12,3 +12,6 @@
 
 - name: Set current teradata jdbc driver
   shell: ~/adillow_bin/set_current_jdbc dremio dremio-jdbc-driver-15.2.0-202104142212170463-ae16cd17.jar
+
+- name: Set current trino jdbc driver
+  shell: ~/adillow_bin/set_current_jdbc trino trino-jdbc-357.jar

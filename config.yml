@@ -31,6 +31,7 @@ homebrew_installed_packages:
   - htop
   - jenv
   - jfrog-cli
+  - jq
   - openjdk
   - openjdk@11
   - openjdk@8
